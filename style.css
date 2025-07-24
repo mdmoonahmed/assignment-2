@@ -345,4 +345,16 @@ nav ul{
     .latest-deal-description{
         padding: 0 3rem;
     }
+    .join-section{
+        height: 17rem;
+        width: 100%;
+    }
+    .input-container input{
+    padding: 10px 40px 10px 20px;
+    }
+    .sub-btn{
+        padding: 10px 15px;
+        margin: 0;
+    }
+    
 }

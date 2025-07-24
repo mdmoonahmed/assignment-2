@@ -149,6 +149,10 @@ nav ul{
 
 /* responsive layout */
 @media screen and (max-width:576px) {
+    :root{
+        --font-size-primary:1.5rem;
+        --font-size-secondary:0.9rem;
+    }
     header ,main {
         max-width: 100%;
     }
@@ -159,7 +163,14 @@ nav ul{
     .banner-container{
         flex-direction: column-reverse;
     }
-    .nav-container, .banner ,.card-container{
+    .plant-section{
+        margin-top: 4rem;
+        margin-bottom: 2.5rem;
+    }
+    .plants-lover-section{
+        flex-direction: column;
+    }
+    .nav-container, .banner ,.card-container, .plants-lover-section{
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -176,7 +187,7 @@ nav ul{
         grid-template-columns: repeat(2,1fr);
 
     }
-    .card img{
+    .card img, .plants-lover-description, .plants-lover-title{
         width: 100%;
     }
 }

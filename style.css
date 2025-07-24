@@ -252,6 +252,8 @@ nav ul{
  
  /*joint section styles  */
  .join-section{
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: url(assets/news-letter-bg.png);
     width: 100%;
     height: 33rem;
@@ -287,6 +289,43 @@ nav ul{
 .sub-btn:hover{
      background-color: rgb(143, 155, 188);
 }
+/* footer styles */
+.footer-container{
+    max-width: 1140px;
+    margin: 3.1rem auto 3.1rem auto ;
+    display: flex;
+    gap: 6.8rem;
+    justify-content: space-around;
+    align-items: start;
+
+}
+.column-1-description{
+    font-size: var(--font-size-secondary);
+    color: var(--clr-secondary);
+   margin-top: 1rem;
+}
+.column-1{
+    max-width: 360px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.column-2 ul li, .column-3 ul li {
+    color: var(--clr-secondary);
+    list-style: none;
+    line-height: 50px; 
+}
+.column-4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+.column-2 ul li a, .column-3 ul li a{
+    text-decoration: none;
+    color: var(--clr-secondary);
+}
+
 /* responsive layout */
 @media screen and (max-width:576px) {
     :root{
@@ -354,7 +393,7 @@ nav ul{
     }
     .sub-btn{
         padding: 10px 15px;
-        margin: 0;
+        margin: 0; 
     }
     
 }

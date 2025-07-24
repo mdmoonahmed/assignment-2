@@ -266,10 +266,10 @@ nav ul{
         margin-top: 4rem;
         margin-bottom: 2.5rem;
     }
-    .plants-lover-section{
+    .plants-lover-section, .latest-deal-container{
         flex-direction: column;
     }
-    .nav-container, .banner ,.card-container, .plants-lover-section{
+    .nav-container, .banner ,.card-container, .plants-lover-section, .latest-deal-container{
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -288,5 +288,20 @@ nav ul{
     }
     .card img, .plants-lover-description, .plants-lover-title{
         width: 100%;
+    }
+    .overflow-text-3{
+        font-size: 1.4rem;
+    }
+    .shop-btn-3{
+        font-size: 1rem;
+    }
+    .latest-deal-title{
+        margin-top: 15rem; 
+    }
+    .latest-deal-container{
+        margin-top: 3.2rem;
+    }
+    .latest-deal-description{
+        padding: 0 3rem;
     }
 }

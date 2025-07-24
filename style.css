@@ -21,6 +21,7 @@
     --clr-primary:#E95A08;
     --clr-secondary: #808080;
     --font-size-primary:3.125rem; 
+    --font-size-secondary:1.4rem;
 }
 body{
     /* overflow-x: hidden; */
@@ -67,6 +68,7 @@ nav ul{
 }
 .banner-description{
     color: var(--clr-secondary);
+    font-size: var(--font-size-secondary);
 }
 /* plants section styles */
 .plant-section{
@@ -78,6 +80,7 @@ nav ul{
 }
 .plant-description{
     color: var(--clr-secondary);
+    font-size: var(--font-size-secondary);
     margin: 1rem auto 3rem auto;
     max-width: 55%;
     text-align: center;
@@ -112,6 +115,38 @@ nav ul{
     box-sizing: border-box;
     box-shadow: 2px 2px 10px rgb(224, 179, 221, 0.5);
 }
+/* plants lover section */
+.plants-lover-section{
+    display: flex;
+    gap: 3rem;
+    height: 37rem;
+    align-items: center;
+    position: relative;
+}
+.plants-lover-description{ 
+     width: 31.02rem; 
+}
+.plants-lover-title{
+   font-size: var(--font-size-primary);
+   
+}
+.plants-lover-text ul li{
+   margin: 1.25rem;
+   color: var(--clr-secondary);
+   font-size: var(--font-size-secondary);
+}
+.plants-lover-section img {
+    width: 100%;
+}
+.trusted-badge img{
+    position: absolute;
+    left: 33%;
+    top: -13%;
+    width: 19%;
+    /* box-shadow: 4px 10px 4px; */
+    
+}
+
 /* responsive layout */
 @media screen and (max-width:576px) {
     header ,main {

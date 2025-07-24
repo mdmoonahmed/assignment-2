@@ -349,7 +349,7 @@ nav ul{
     .plants-lover-section, .latest-deal-container, .footer-container{
         flex-direction: column;
     }
-    .nav-container, .banner ,.card-container, .plants-lover-section, .latest-deal-container{
+    .nav-container, .banner ,.card-container, .plants-lover-section, .latest-deal-container, .footer-container{
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -397,7 +397,6 @@ nav ul{
     }
     .footer-container{
         gap: 0px;
-        margin-left: 20px;
         margin-bottom: 75px;
     }
     

@@ -107,6 +107,9 @@ nav ul{
     padding: 1rem ;
     cursor: pointer;
 }
+.card-btn:hover{
+     background-color: rgb(143, 155, 188);
+}
 .card{
     display: flex;
     flex-direction: column;
@@ -159,12 +162,12 @@ nav ul{
 
 
 }
-.boom-ana-container{
+.bloom-ana-container{
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
 }
-.boom-ana-container img{
+.bloom-ana-container img{
     width: 100%;
     border-radius: .9rem;
 }
@@ -245,7 +248,45 @@ nav ul{
 .shop-btn a, .shop-btn-3 a {
     text-decoration: none;
     color: white;
-}   
+} 
+ 
+ /*joint section styles  */
+ .join-section{
+    background-image: url(assets/news-letter-bg.png);
+    width: 100%;
+    height: 33rem;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+ }
+.join-title{
+    font-size: var(--font-size-primary);
+    color: white;
+}
+.input-container{
+    display: flex;
+    gap: 0;
+}
+.input-container input{
+    padding: 10px 400px 10px 20px;
+}
+.sub-btn{
+    padding: 10px 53px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.sub-btn a{
+    text-decoration: none;
+    color: white;
+}
+.sub-btn:hover{
+     background-color: rgb(143, 155, 188);
+}
 /* responsive layout */
 @media screen and (max-width:576px) {
     :root{
